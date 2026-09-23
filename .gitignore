@@ -8,3 +8,6 @@ dist/
 build/
 .pytest_cache/
 report.md
+src/automated_interview_simulator_with_hr_and_technical_agents/config/desktop.ini
+src/automated_interview_simulator_with_hr_and_technical_agents/desktop.ini
+*.ini
