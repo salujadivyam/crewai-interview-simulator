@@ -1,0 +1,23 @@
+[project]
+name = "automated_interview_simulator_with_hr_and_technical_agents"
+version = "0.1.0"
+description = "automated_interview_simulator_with_hr_and_technical_agents using crewAI"
+authors = [{ name = "Divyam Saluja", email = "divyam.adt@gmail.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.150.0,<1.0.0"
+]
+
+[project.scripts]
+automated_interview_simulator_with_hr_and_technical_agents = "automated_interview_simulator_with_hr_and_technical_agents.main:run"
+run_crew = "automated_interview_simulator_with_hr_and_technical_agents.main:run"
+train = "automated_interview_simulator_with_hr_and_technical_agents.main:train"
+replay = "automated_interview_simulator_with_hr_and_technical_agents.main:replay"
+test = "automated_interview_simulator_with_hr_and_technical_agents.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
